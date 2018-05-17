@@ -1,0 +1,207 @@
+{
+  "object": {
+    "title": {
+      "main": {
+        "color": "@TitleColor",
+        "fontSize": "@TitleSize"
+      },
+      "subTitle": {
+        "color": "@SubtitleColor",
+        "fontSize": "@SubtitleSize"
+      },
+      "footer": {
+        "color": "@FooterColor",
+        "fontSize": "@FooterSize",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "label": {
+      "name": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      },
+      "value": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      }
+    },
+    "axis": {
+      "title": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      },
+      "label": {
+        "name": {
+          "color": "@TextColor",
+          "fontSize": "@TextSize"
+        }
+      },
+      "line": {
+        "major": {
+          "color": "#eeeeee"
+        },
+        "minor": {
+          "color": "#eeeeee"
+        }
+      }
+    },
+    "grid": {
+      "line": {
+        "highContrast": {
+          "color": "#eeeeee"
+        },
+        "major": {
+          "color": "#eeeeee"
+        },
+        "minor": {
+          "color": "#eeeeee"
+        }
+      }
+    },
+    "referenceLine": {
+      "label": {
+        "name": {
+          "color": "@TextColor",
+          "fontSize": "@TextSize"
+        }
+      },
+      "outOfBounds": {
+        "color": "@TextColor",
+        "backgroundColor": "#ffffff",
+        "fontSize": "@TextSize"
+      }
+    },
+    "legend": {
+      "title": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      },
+      "label": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      }
+    }
+  },
+  "dataColors": {
+    "primaryColor": "#01b8aa",
+    "othersColor": "#b59525",
+    "errorColor": "#bb4a4a",
+    "nullColor": "#CCCCCC"
+  },
+  "palettes": {
+    "data": [
+      {
+        "scale": [
+          "#01b8aa",
+          "#374649",
+          "#fd625e",
+          "#f2c80f",
+          "#5f6b6d",
+          "#8ad4eb",
+          "#fe9666",
+          "#a66999",
+          "#3599b8",
+          "#dfbfbf",
+          "#4ac5bb",
+          "#5f6b6d",
+          "#fb8281",
+          "#f4d25a",
+          "#7f898a",
+          "#a4ddee",
+          "#fdab89",
+          "#b687ac",
+          "#28738a",
+          "#a78f8f",
+          "#168980",
+          "#293537",
+          "#bb4a4a",
+          "#b59525",
+          "#475052"
+        ],
+        "name": "Power BI",
+        "translation": "Power BI",
+        "propertyValue": "954rqk",
+        "type": "row",
+        "_id": "5aac0e8abe1a68155e395fc9"
+      }
+    ],
+    "ui": [
+      {
+        "colors": [
+          "#01b8aa",
+          "#374649",
+          "#fd625e",
+          "#f2c80f",
+          "#5f6b6d",
+          "#8ad4eb",
+          "#fe9666",
+          "#a66999",
+          "#3599b8",
+          "#dfbfbf",
+          "#4ac5bb",
+          "#5f6b6d"
+        ],
+        "name": "Power BI UI",
+        "_id": "5aac0dbebe1a68155e395fc8"
+      }
+    ]
+  },
+  "customStyles": [
+    {
+      "cssRef": "theme.css",
+      "classRef": "sense-theme"
+    }
+  ],
+  "scales": [
+    {
+      "scale": [
+        "#01b8aa",
+        "#fd625e"
+      ],
+      "name": "Power BI  Aqua to Red",
+      "translation": "Power BI",
+      "type": "gradient",
+      "propertyValue": "i6qv",
+      "_id": "5aac2004be1a68155e395fcc"
+    },
+    {
+      "scale": [
+        "#01b8aa",
+        "#f2c80f"
+      ],
+      "name": "Power BI  Aqua to Gold",
+      "translation": "Power BI",
+      "type": "gradient",
+      "propertyValue": "9msm3o",
+      "_id": "5aac2004be1a68155e395fcb"
+    },
+    {
+      "scale": [
+        "#f2c80f",
+        "#fd625e"
+      ],
+      "name": "Power BI Gold to Red",
+      "translation": "Power BI",
+      "type": "gradient",
+      "propertyValue": "oef8wh",
+      "_id": "5aac2004be1a68155e395fca"
+    }
+  ],
+  "_inherit": true,
+  "_variables": {
+    "@TitleSize": "16px",
+    "@SubtitleSize": "15px",
+    "@TextSize": "12px",
+    "@FooterSize": "10px",
+    "@TitleColor": "#888888",
+    "@SubtitleColor": "#888888",
+    "@TextColor": "#888888",
+    "@FooterColor": "#888888",
+    "@BackgroundColor": "#ffffff",
+    "@AxisMajorColor": "#eeeeee",
+    "@AxisMinorColor": "#eeeeee"
+  },
+  "color": "@TextColor",
+  "fontSize": "@TextSize",
+  "backgroundColor": "@BackgroundColor"
+}
